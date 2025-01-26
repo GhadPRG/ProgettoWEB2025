@@ -30,7 +30,10 @@ git push
 
 ### Spiegazione dei Comandi
 
-1.**`git submodule update --remote --merge`**: Aggiorna i sottomoduli ai loro ultimi commit remoti e li unisce con il branch corrente.
-2.**`git add .`**: Aggiunge tutte le modifiche allo staging area.
-3.**`git commit -m "Commento"`**: Crea un nuovo commit con un messaggio descrittivo.  
-4.**`git push`**: Carica i commit locali sulla repository remota.
+1. **`git submodule update --remote --merge`**: Aggiorna i sottomoduli ai loro ultimi commit remoti e li unisce con il branch corrente.
+   
+2. **`git add .`**: Aggiunge tutte le modifiche allo staging area.
+
+3. **`git commit -m "Commento"`**: Crea un nuovo commit con un messaggio descrittivo.  
+
+4. **`git push`**: Carica i commit locali sulla repository remota.
