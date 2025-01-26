@@ -1,5 +1,5 @@
 
-  
+# PULLATE SEMPRE COSì RIDUCIAMO AL MINIMO LA POSSIBILITà DI CONFLITTI  
 
 # ProgettoWEB2025
 
@@ -31,11 +31,11 @@ git  clone  --recurse-submodules  https://github.com/GhadPRG/ProgettoWEB2025.git
 
 ```
 
-### E' IMPORTANTE AVERE I VRANCH MAIN DEI SOTTOMODULI AGGIORNATI ALL'ULTIMO COMMIT PER EVITARE DI AVERE PROBLEMI DI CONFLITTI
+### E' IMPORTANTE AVERE I BRANCH MAIN DEI SOTTOMODULI AGGIORNATI ALL'ULTIMO COMMIT PER EVITARE DI AVERE PROBLEMI DI CONFLITTI
 
-### Quando fate il clone della repo principale con i sottomoduli, bisogna fare il checkout sul branch su cui si sta lavorando. 
+### Quando fate il clone della repo principale con i sottomoduli, bisogna spostarsi nella directory del sottomodulo in cui lavorare e fare il checkout sul branch su cui si vuole lavorare. 
 ### Vi capiterà di trovarvi su intellij nella sezione di git un simbolo giallo di avviso con il codice di un commit, vi sta avvertendo che non siete su un branch principale come il main, i branch dev o i nostri personali, bensì siamo in un branch di uno specifico commit. E questo non va bene, quindi occorre fare il checkout su uno dei branch interessati.
-#### (Questa operazione capiterà di farla sicuramente la prima volta in cui si apre il progetto su intellij dopo aver fatto il clone della repo principale)
+#### (Questa operazione capiterà di farla sicuramente la prima volta in cui si apre il progetto su intellij dopo aver fatto il clone della repo principale e dopo esservi spostati su uno dei due sottomoduli)
 ### Se usate la riga di comando per eseguire i commit push e cazzi vari, quando farete un `git status` vi ritroverete sicuramente un avviso di questo tipo:
 ```bash
 HEAD detached from 6f25e09
