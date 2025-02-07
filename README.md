@@ -34,8 +34,8 @@ git  clone  --recurse-submodules  https://github.com/GhadPRG/ProgettoWEB2025.git
 ### Quando fate il clone della repo principale con i sottomoduli, bisogna spostarsi nella directory del sottomodulo in cui lavorare e fare il checkout sul branch su cui si vuole lavorare. 
 ### Vi capiterà di trovarvi su intellij nella sezione di git un simbolo giallo di avviso con il codice di un commit, vi sta avvertendo che non siete su un branch principale come il main, i branch dev o i nostri personali, bensì siamo in un branch di uno specifico commit. E questo non va bene, quindi occorre fare il checkout su uno dei branch interessati.
 ![image](https://github.com/user-attachments/assets/47d41711-2c96-483e-9aaa-6dbda82b0d2f)
+![image](https://github.com/user-attachments/assets/2afed61b-9eb2-4f0b-9538-38ad9548ad6c)
 
-![image](https://github.com/user-attachments/assets/4bbac8ef-477b-4597-a362-27939bf6c914)
 
 #### (Questa operazione capiterà di farla sicuramente la prima volta in cui si apre il progetto su intellij dopo aver fatto il clone della repo principale e dopo esservi spostati su uno dei due sottomoduli)
 ### Se usate la riga di comando per eseguire i commit push e cazzi vari, quando farete un `git status` vi ritroverete sicuramente un avviso di questo tipo:
