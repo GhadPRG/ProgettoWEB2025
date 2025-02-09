@@ -3,3 +3,5 @@
  - Dopo aver effettuato la registrazione, il form sarà sempre invalido e il tasto di login risulterà disattivo. Per risolvere, basta aggiornare la pagina. 
  - Dopo aver aggiunto una nota con dei tag, il tag    inizialmente non viene visualizzato, ma viene	 	  visualizzato solo dopo    aver aggiornato la pagina.     
  - Quando viene creato un nuovo evento,       occorre aggiornare la pagina per poterlo visualizzare. (La stessa       cosa vale per  l'eliminazione e l'update)
+ - Quando esegui la registrazione, non vieni reindirizzato direttamente nella pagina di login, e se provi ad inserire le credenziali il form risulterà sempre invalido anche con le credenziali corrette.
+   Occorre aggiornare la pagina per poter proseguire con il login.
